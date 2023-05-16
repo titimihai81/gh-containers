@@ -14,10 +14,8 @@ jobs:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.orotcw9.mongodb.net
-      # MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
-      MONGODB_USERNAME: titimihai81
-      MONGODB_PASSWORD: tseccpA7mCj22IIn
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     steps:
       - name: Get Code
